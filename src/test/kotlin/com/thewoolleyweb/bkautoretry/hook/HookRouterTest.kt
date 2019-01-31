@@ -23,7 +23,7 @@ class HookRouterTest {
     fun testHello() {
         webTestClient
             .post().uri("/hook")
-            .accept(MediaType.TEXT_PLAIN)
+            .accept(MediaType.APPLICATION_JSON)
             .exchange()
             .expectStatus().isOk
             .expectBody<String>().isEqualTo("Job webhook successfully processed")
