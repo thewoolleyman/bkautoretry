@@ -34,7 +34,14 @@ liquibase update
 
 References for tools/architecture used:
 
-* https://start.spring.io/
-* https://spring.io/guides/gs/reactive-rest-service/
-* https://dzone.com/articles/spring-webflux-getting-started
-* https://github.com/sdeleuze/webflux-kotlin-web-tests
+* Spring Boot init:
+  * https://start.spring.io/
+* Initial reactive rest setup and tests:
+  * https://spring.io/guides/gs/reactive-rest-service/
+  * https://dzone.com/articles/spring-webflux-getting-started
+  * https://github.com/sdeleuze/webflux-kotlin-web-tests
+* DB access
+  * https://github.com/bastman/spring-kotlin-exposed
+  * https://phauer.com/2017/do-it-yourself-orm-alternative-hibernate-drawbacks/
+  * https://www.baeldung.com/spring-jdbc-jdbctemplate
+  * (TODO: explore jsonb vs json): https://www.compose.com/articles/faster-operations-with-the-jsonb-data-type-in-postgresql/
