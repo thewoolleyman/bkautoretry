@@ -7,6 +7,9 @@ import org.springframework.boot.runApplication
 class BkautoretryApplication
 
 fun main(args: Array<String>) {
-	runApplication<BkautoretryApplication>(*args)
+    runApplication<BkautoretryApplication>(*args)
+
+    val gwc = GreetingWebClient()
+    System.out.println(gwc.getResult())
 }
 

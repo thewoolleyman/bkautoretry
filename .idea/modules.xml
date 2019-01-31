@@ -4,7 +4,6 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.thewoolleyweb.bkautoretry.iml" filepath="$PROJECT_DIR$/.idea/modules/com.thewoolleyweb.bkautoretry.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.thewoolleyweb.bkautoretry.main.iml" filepath="$PROJECT_DIR$/.idea/modules/com.thewoolleyweb.bkautoretry.main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.thewoolleyweb.bkautoretry.test.iml" filepath="$PROJECT_DIR$/.idea/modules/com.thewoolleyweb.bkautoretry.test.iml" />
     </modules>
   </component>
 </project>
