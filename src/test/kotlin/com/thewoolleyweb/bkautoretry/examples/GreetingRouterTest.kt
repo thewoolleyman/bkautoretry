@@ -1,4 +1,4 @@
-package com.thewoolleyweb.bkautoretry
+package com.thewoolleyweb.bkautoretry.examples
 
 
 import org.junit.Test
