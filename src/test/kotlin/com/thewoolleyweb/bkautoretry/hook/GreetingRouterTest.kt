@@ -20,7 +20,7 @@ class HookRouterTest {
     @Test
     fun testHello() {
         webTestClient
-            .get().uri("/hook")
+            .post().uri("/hook")
             .accept(MediaType.TEXT_PLAIN)
             .exchange()
             .expectStatus().isOk

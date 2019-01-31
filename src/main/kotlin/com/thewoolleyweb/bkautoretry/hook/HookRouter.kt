@@ -12,7 +12,7 @@ class HookRouter {
     fun routeHook(hookHandler: HookHandler): RouterFunction<ServerResponse> {
 
         return RouterFunctions
-            .route(RequestPredicates.GET("/hook").and(RequestPredicates.accept(MediaType
+            .route(RequestPredicates.POST("/hook").and(RequestPredicates.accept(MediaType
                 .TEXT_PLAIN)),
                 HandlerFunction<ServerResponse> { hookHandler.handleJobHook(it) })
     }
