@@ -21,8 +21,14 @@ class HookRouterTest {
 
     @Test
     fun testHello() {
+        val body = """
+            {
+                "foo":"bar"
+            }
+        """.trimIndent()
         webTestClient
             .post().uri("/hook")
+            .syncBody(body)
             .accept(MediaType.APPLICATION_JSON)
             .exchange()
             .expectStatus().isOk
