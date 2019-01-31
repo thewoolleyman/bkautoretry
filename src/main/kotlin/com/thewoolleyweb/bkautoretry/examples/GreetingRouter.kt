@@ -9,7 +9,7 @@ import org.springframework.web.reactive.function.server.*
 class GreetingRouter {
 
     @Bean
-    fun route(greetingHandler: GreetingHandler): RouterFunction<ServerResponse> {
+    fun routeExample(greetingHandler: GreetingHandler): RouterFunction<ServerResponse> {
 
         return RouterFunctions
             .route(RequestPredicates.GET("/hello").and(RequestPredicates.accept(MediaType.TEXT_PLAIN)),
