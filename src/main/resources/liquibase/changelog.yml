@@ -1,0 +1,22 @@
+databaseChangeLog:
+  - preConditions:
+      - runningAs:
+          username: bkautoretry
+
+  - changeSet:
+      id: 1
+      author: thewoolleyman
+      changes:
+        - createTable:
+            tableName: jobevents
+            columns:
+              - column:
+                  name: id
+                  type: char(36)
+                  autoIncrement: false
+                  constraints:
+                    primaryKey: true
+                    nullable: false
+              - column:
+                  name: event
+                  type: json
