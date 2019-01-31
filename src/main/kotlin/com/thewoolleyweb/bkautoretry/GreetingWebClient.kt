@@ -12,8 +12,8 @@ class GreetingWebClient {
         .exchange()
 
     fun getResult(): String {
-        return ">> result = " + result.flatMap {
-            res -> res.bodyToMono(String::class.java)
+        return ">> result = " + result.flatMap { res ->
+            res.bodyToMono(String::class.java)
         }.block()!!
     }
 }

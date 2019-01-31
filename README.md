@@ -12,3 +12,4 @@ References for tools/architecture used:
 * https://start.spring.io/
 * https://spring.io/guides/gs/reactive-rest-service/
 * https://dzone.com/articles/spring-webflux-getting-started
+* https://github.com/sdeleuze/webflux-kotlin-web-tests
